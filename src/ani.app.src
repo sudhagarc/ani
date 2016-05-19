@@ -1,0 +1,12 @@
+{application, ani,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { ani_app, []}},
+  {env, []}
+ ]}.
